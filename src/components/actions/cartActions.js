@@ -3,7 +3,7 @@ import {
   REMOVE_ITEM,
   SUB_QUANTITY,
   ADD_QUANTITY,
-  ADD_SHIPPING
+  // ADD_SHIPPING
 } from "./action-types/cart-actions";
 
 //add cart action
