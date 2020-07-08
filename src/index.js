@@ -10,7 +10,7 @@ import { ToastProvider } from "react-toast-notifications";
 const store = createStore(cartReducer);
 
 ReactDOM.render(
-  <ToastProvider>
+  <ToastProvider autoDismiss autoDismissTimeout={1500} placement="top-center">
     <Provider store={store}>
       <App />
     </Provider>

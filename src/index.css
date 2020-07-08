@@ -27,10 +27,14 @@
   width: 300px;
   box-shadow: 0px 0px 0px 0px #fff;
 }
-.card .card-image .card-title {
+.card .card-image {
+  padding-bottom: 0px;
+}
+.card-title-header {
   color: black;
   font-weight: 600;
-  padding-bottom: 0px;
+  font-size: 24px;
+  padding-bottom: 10px;
 }
 .cart {
   margin-top: 40px;

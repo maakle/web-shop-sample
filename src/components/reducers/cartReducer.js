@@ -6,9 +6,9 @@ import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '
 
 const initState = {
     items: [
-        {id:1,title:'The Cool', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:110,img:Item1},
-        {id:2,title:'The Sport', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:80,img: Item2},
-        {id:3,title:'The Hipster', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",price:120,img: Item3}
+        {id:1,title:'The Classic', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:39,img:Item1},
+        {id:2,title:'The Refreshing', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:45,img: Item2},
+        {id:3,title:'The Modern', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",price:34,img: Item3}
     ],
     addedItems:[],
     total: 0

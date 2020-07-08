@@ -5,13 +5,11 @@ import { useToasts } from "react-toast-notifications";
 
 const Home = (props) => {
   const { addToast } = useToasts();
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const handleClick = (id) => {
     addToast("Added to Cart", {
       appearance: "info",
-      autoDismissTimeout: 1500,
-      autoDismiss: true,
     });
     dispatch(addToCart(id));
   };
@@ -23,10 +21,10 @@ const Home = (props) => {
           <div className="card" key={item.id}>
             <div className="card-image">
               <img src={item.img} alt={item.title} />
-              <span className="card-title">{item.title}</span>
             </div>
 
             <div className="card-content">
+              <span className="card-title-header">{item.title}</span>
               <p>{item.desc}</p>
               <div className="action-row">
                 <button
