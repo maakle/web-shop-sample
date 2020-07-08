@@ -1,6 +1,6 @@
-import Item1 from '../../images/item1.jpg'
-import Item2 from '../../images/item2.jpg'
-import Item3 from '../../images/item3.jpg'
+import Item1 from '../../assets/item1.jpg'
+import Item2 from '../../assets/item2.jpg'
+import Item3 from '../../assets/item3.jpg'
 import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '../actions/action-types/cart-actions'
 
 
