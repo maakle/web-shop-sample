@@ -5,12 +5,15 @@ import "./index.css";
 import cartReducer from "./components/reducers/cartReducer";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
+import { ToastProvider } from "react-toast-notifications";
 
 const store = createStore(cartReducer);
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+  <ToastProvider>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </ToastProvider>,
   document.getElementById("root")
 );
