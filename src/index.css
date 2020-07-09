@@ -109,8 +109,22 @@
   top: 20%;
   margin-left: -300px;
   display: none;
+  padding: 20px;
 }
-
+.modal-header {
+  padding-bottom: 20px;
+}
+.modal-title {
+  font-weight: 600;
+  text-align: center;
+}
+.modal-body {
+  text-align: center;
+}
+.pb-button-wrapper {
+  margin-top: 20px;
+  display: inline-block;
+}
 .modal-container.modal-container-active {
   display: block;
 }
