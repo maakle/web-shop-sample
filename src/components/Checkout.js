@@ -23,10 +23,10 @@ const Checkout = () => {
 
       <div className={containerClass}>
         <div className="modal-header">
-          <h5 className="modal-title">Verification Necessary</h5>
+          <h5 className="modal-title">Age verification required</h5>
         </div>
         <div className="modal-body">
-          <p>In order to finish the purchase you need to verify your age. Please complete the verification flow my pressing the button below.
+          <p>You're probably old enough to place this order but in order to finish the purchase you need to verify your age. Please do so by clicking this button.
           </p>
           <div className="pb-button-wrapper">
             <VerifyButton
