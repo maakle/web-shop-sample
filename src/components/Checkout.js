@@ -31,7 +31,7 @@ const Checkout = () => {
           <div className="pb-button-wrapper">
             <VerifyButton
               apiKey=
-              {"ebb8c2f2c2b27d10a1dfdf1bd0a882455b0f5cfcfd37f2a9020d24cfbe08feaa"}
+              {"2b4598cdbb809d8b7a34ba534d76447634ed9a8d58bb498421f72cd8187df048"}
               onFinished={(error, authKey, additionalAttributes) => {}}
               integrationType={"signup"}
               additionalAttributes={{
